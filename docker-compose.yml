@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx:
+    build: .
+    image: dockertest
+    ports:
+      - "80:80"
